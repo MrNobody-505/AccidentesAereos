@@ -1,4 +1,4 @@
-## Accidentes aéreos
+# Accidentes aéreos
 
  Hola!
 
@@ -8,7 +8,7 @@
  - Power BI (DAX)
  - GitHub
 
- # Descripción del proyecto:
+ ## Descripción del proyecto:
 
 ## Análisis exploratorio de los datos (EDA):
 
@@ -61,7 +61,7 @@ ver archivo 'Accidentes Aéreos.pbix'
 
 ![Dashboard PowerBI Aviones](./DashBoard%20screenshot.png)
 
-     En el Dashboard se pueden utilizar de manera interactiva los filtros de los operadores de los vuelos y los filtros del tipo de vuelo, así mismo el slider del rango de tiempo se puede ajustar según lo indicado por el usuario para obtener visualizaciones sobre el mapa, la gráfica de linea y los KPIs presentados.
+En el Dashboard se pueden utilizar de manera interactiva los filtros de los operadores de los vuelos y los filtros del tipo de vuelo, así mismo el slider del rango de tiempo se puede ajustar según lo indicado por el usuario para obtener visualizaciones sobre el mapa, la gráfica de linea y los KPIs presentados.
     
 ## Análisis & Conclusiones:
 - A medida que avanza el tiempo se podría esperar mayor avance tecnológico que en teoría reduciría los riesgos de incidentes aereos, sin embargo así mismo los vuelos se hacen más populares y más accequibles para la población, lo cual implica que existan más vuelos circulando y esto a su vez aumenta la probabilidad de accidentes (no por razón porcentual sino por magnitud total).
