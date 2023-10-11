@@ -48,4 +48,22 @@ Se ejecutó otro análisis exploratorio para poder determinar si existía correl
 
 ![Heatmap hora-top10-muertes](./heatmap.png)
 
+Según la evidencia, no existe correlación entre las horas de los accidentes y un mayor riesgo de accidentalidad, con excepción de algunos casos particulares como lo son el caso de China, donde existe mayor probabilidad de accidente a las 7:00, lo cuál contrasta con el inusual número bajo de accidentes justo antes de las 7:00, entre 02:00 y 7:00. Este hecho podría explicarse porque en China no hay vuelos en esa franja horaria y el primer vuelo puede recoger el efecto de esa falta de actividad.
+Otro punto relevante se encuentra en India a las 18:00, lo cualpuede ser explicado por un evento poco frecuente que multiplica las muertes, se trató de un accidente que involucró el choque de dos aeronaves de uso comercial, dejando un saldo de muertes muy por encima del promedio.
 
+A pesar de lo anteriormente descrito, se evidencia que no existe relación fuerte entre el número de accidentes y el número de muertes, por tanto esto apoya la teoría de que la mayoría de los accidentes involucran aviones militares, de carga, vuelos de reconocimiento de zonas, vuelos de práctica y/o entrenamiento.
+
+
+## Visualizaciones:
+Al ejecutar un análisis mas exhaustivo del set de datos en Power BI, se puede evidenciar que:
+
+ver archivo 'Accidentes Aéreos.pbix'
+
+![Dashboard PowerBI Aviones](./DashBoard%20screenshot.png)
+
+     En el Dashboard se pueden utilizar de manera interactiva los filtros de los operadores de los vuelos y los filtros del tipo de vuelo, así mismo el slider del rango de tiempo se puede ajustar según lo indicado por el usuario para obtener visualizaciones sobre el mapa, la gráfica de linea y los KPIs presentados.
+    
+## Análisis & Conclusiones:
+- A medida que avanza el tiempo se podría esperar mayor avance tecnológico que en teoría reduciría los riesgos de incidentes aereos, sin embargo así mismo los vuelos se hacen más populares y más accequibles para la población, lo cual implica que existan más vuelos circulando y esto a su vez aumenta la probabilidad de accidentes (no por razón porcentual sino por magnitud total).
+- El país con mayor número de accidentes es EEUU con 1052 durante todo el rango de tiempo del análisis (17/09/1908-06/07/2021) y también es el país con mayor número de muertos totales por accidentes aéreos con 150.310 sobre su territorio.
+- Los aviones de referencias Douglas xx son los que mayores accidentes tuvieron en la historia de la aviación hasta el momento, sin embargo esto podría deberse a que fueron referencias utilizadas por EEUU para sus incursiones en guerras como la segunda guerra mundial y la guerra de Vietnam, a pesar de no ser aeronaves de guerra, si se empleaban como artilleros de suministros de guerra y transporte de tropas.
